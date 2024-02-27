@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Results summary component | Frontend Mentor</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="result__wrapper">
+        <h1 class="result__title">Your Result</h1>
+        <div class="result__score">
+          <div class="result__total">76</div>
+          <div class="result__max">of 100</div>
+        </div>
+        <h2 class="result__level">Great</h2>
+        <p class="result__desc">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="summary__wrapper">
+        <h3 class="summary__title">Summary</h3>
+        <div class="summary__results">
+          <div class="summary__result" style="background-color: #ff57571a">
+            <img src="./images/icon-reaction.svg" alt="Reaction icon" />
+            <p style="color: #ff5757">Reaction</p>
+            <p>80<span>/ 100</span></p>
+          </div>
+          <div class="summary__result" style="background-color: #ffb01f1a">
+            <img src="./images/icon-memory.svg" alt="Memory icon" />
+            <p style="color: #ffb01f">Memory</p>
+            <p>92<span>/ 100</span></p>
+          </div>
+          <div class="summary__result" style="background-color: #00bd911a">
+            <img src="./images/icon-verbal.svg" alt="Verbal icon" />
+            <p style="color: #00bd91">Verbal</p>
+            <p>61<span>/ 100</span></p>
+          </div>
+          <div class="summary__result" style="background-color: #1125d41a">
+            <img src="./images/icon-visual.svg" alt="Visual icon" />
+            <p style="color: #1125d4">Visual</p>
+            <p>72<span>/ 100</span></p>
+          </div>
+        </div>
+        <button class="summary__btn">Continue</button>
+      </div>
+    </main>
+  </body>
+</html>
